@@ -8,19 +8,24 @@
 </head>
 <body>
   <div class="container">
-    <h1>Leap year detector</h1>
+    <h1>Count Up By... something</h1>
 
     <form id="count_up_by">
       <div class="form-group">
-        <label for="number">Enter a number and find out if it's a leap number:</label>
+        <label for="number">Enter a number you want to count up to:</label>
         <input id="number" type="text">
+      </div>
+
+      <div class="form-group">
+        <label for="multiple">Enter the multiple you want to count by:</label>
+        <input id="multiple" type="text">
       </div>
 
       <button type="submit" class="btn">Find out!</button>
     </form>
 
     <div id="result">
-      <p><span class="year"></span> is <span class="not"></span> a leap year.</p>
+      <p>And here's your result:<span class="result"></span></p>
     </div>
   </div>
 </body>
